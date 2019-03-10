@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+* {
+    font-family: "Raleway";
+    color: #0e3746;
+}
+
+a {
+    font-family: "Raleway";
+    color: #0e3746;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #0e3746;    
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+button {
+    background: none;
+    padding: 0;
+    border: none;
+}
+
+
+.navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background: #0e3746;
+}
+
+.nav-item {
+    margin-right: 2px;
+}
+
+.backbox {
+    height: 60px;
+}
+
+.navbar .navbar-brand img{
+    height: 40px;
+}
+
+.logo-signin {
+    height: 50px;
+}
+
+.box{
+    width: 400px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 20px;
+    background: #f4f2ec;
+    border: none;
+    color: #0e3746;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.box-signup {
+    width: 600px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 20px;
+    background: #f4f2ec;
+    border: none;
+    color: #0e3746;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.blue-btn {
+    background: #0e3746;
+    color: #f4f2ec;
+    border: none;
+}
+.blue-btn:hover {
+    background: #b9c5c5;    
+    color: #0e3746;
+    border: none;
+}
+
+.forgot {
+    color: #be2623;
+    text-decoration: none;
+}
+
+.red-btn {
+    background: #be2623;
+    color: #f4f2ec;
+    border: none;
+}
+.red-btn:hover {
+    background: #b9c5c5;    
+    color: #0e3746;
+    border: none;
+}
+
+.carousel-item {
+    height: 80%;
+}
+
+.catagory {
+    height: 200px;
+
+}
+
+.img-wrap {
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid grey; */
+}
+
+.img-wrap img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.paralax-section {
+    height: 300px;
+}
+
+.titleScreen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg-profile.png");
+    background-size: cover;
+    font-size: 2em;
+    text-align: center;
+}
+
+.sellername-profile {
+    margin-top: 100px;
+    color: #0e3746;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.scrollOnTop {
+    overflow: hidden; /* prevent margin collapse */
+    position: relative;
+    top: 100%;
+    background: #fff;
+    font-size: 1.25em;
+}
+.scrollOnTop p {
+    max-width: 30em;
+    margin: 1.5em auto;
+}
+
+.box-profile {
+    padding: 40px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.photo-profile-seller {
+    height: 200px;
+    width: 100%;
+    border: 1px green solid;
+    margin-right: 0;
+}
+
+.site-blocks-2 .block-2-item {
+    display: block;
+    position: relative; }
+    .site-blocks-2 .block-2-item:before {
+      z-index: 1;
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; }
+      .site-blocks-2 .block-2-item .image {
+      position: relative;
+      margin-bottom: 0;
+      overflow: hidden; 
+      height: 200px; }
+      .site-blocks-2 .block-2-item .image img {
+        margin-bottom: 0;
+        -webkit-transition: .3s all ease-in-out;
+        -o-transition: .3s all ease-in-out;
+        transition: .3s all ease-in-out; }
+    .site-blocks-2 .block-2-item .text {
+      z-index: 2;
+      bottom: 0;
+      padding-left: 20px;
+      position: absolute;
+      width: 100%; }
+      .site-blocks-2 .block-2-item .text > span, .site-blocks-2 .block-2-item .text h3 {
+        color: #fff; }
+      .site-blocks-2 .block-2-item .text > span {
+        font-size: 12px;
+        letter-spacing: .1em;
+        font-weight: 900; }
+      .site-blocks-2 .block-2-item .text h3 {
+        font-size: 40px; }
+    .site-blocks-2 .block-2-item:hover .image img {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
+
+.content {
+    width: 80%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+}
+
+.content-profile {
+    width: 80%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+    border: 1px whitesmoke solid;
+    box-shadow: whitesmoke 0 4px 4px 4px;
+    padding: 40px;
+}
+
+.content-profile .w-100 .media img {
+    height: 100px;
+    width: 100px;
+}
+
+.media-body p {
+    margin: 2px 0 4px 0;
+}
+
+.img-big-wrap div img {
+    width: 100%;
+}
+
+.content-90 {
+    width: 95%;
+    border: #b9c5c5 solid 1px;
+}
+
+td .media .img-wrap img {
+    width: fit-content;
+} 
